@@ -16,3 +16,7 @@ const slides = [
 		"tagLine":"Autocollants <span>avec découpe laser sur mesure</span>"
 	}
 ]
+
+function changeSlide() {
+	alert("tu as cliqué sur suivant")
+}
