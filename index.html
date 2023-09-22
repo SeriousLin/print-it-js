@@ -24,9 +24,13 @@
 		<div id="banner">
 			<img class="banner-img" src="./assets/images/slideshow/slide1.jpg" alt="Banner Print-it">
 			<p>Impressions tous formats <span>en boutique et en ligne</span></p>
-			<div class="arrow arrow_left"><img src="assets/images/arrow_left.png" alt=""></div>
-			<div class="arrow arrow_right" onclick="changeSlide()"><img src="assets/images/arrow_right.png" alt=""></div>
+			<div class="arrow arrow_left" onclick="changeSlide(-1)"><img src="assets/images/arrow_left.png" alt="précédent"></div>
+			<div class="arrow arrow_right" onclick="changeSlide(1)"><img src="assets/images/arrow_right.png" alt="suivant"></div>
 			<div class="dots">
+				<input type="radio" class="dot dot_selected">
+				<input type="radio" class="dot">
+				<input type="radio" class="dot">
+				<input type="radio" class="dot">
 			</div>
 		</div>
 		<section id="about-us" class="container">
